@@ -20,15 +20,16 @@
        ┊            ┊            ┊              ┊
    AST(py)🌴     AST(rb)🌳    AST(php)🌵  ...  AST(js)🌱
        ┊            ┊            ┊              ┊
-      AST🎄         AST🎄        AST🎄          AST🎄
+      AST🎄         AST🎄        AST🎄   ...    AST🎄
        ┊            ┊            ┊              ┊
- ━━━━━━━━━━━━ CodeGen ━━━━━━━━━━━━   
-   ┊        ┊        ┊                 ┊      ┊
-Callable  Callable  Callable   ...  Callable  Callable 
-   ┊        ┊        ┊                 ┊      ┊
-   AI        AI        AI      ...       AI      AI
-   ┊        ┊        ┊                 ┊      ┊
+ ━━━━━━━━━━━━━ CodeGen ━━━━━━━━━━━━   
+   ┊        ┊                            ┊      ┊
+Callable  Callable         ...       Callable   Callable 
+   ┊        ┊                            ┊      ┊
+   AI        AI            ...             AI     AI
+   ┊        ┊                            ┊      ┊
  ━━━━━━━━━━━  Knowledge Base 🧠 ━━━━━━━
+
                         ⬆️⬆️⬆️⬆️⬆️
                            Queries
 ```
@@ -41,7 +42,7 @@ Callable  Callable  Callable   ...  Callable  Callable
 - incremental ? privacy ⚠️
 - bitcode: build 🧱 or buy 💶
 - chaotic iteration ? simpler !
-  * non converging scenarios
+  * non-converging scenarios
   * better parallelism
 
 # Research 👨‍🔬
