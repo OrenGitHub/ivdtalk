@@ -22,13 +22,31 @@
        ┊            ┊            ┊              ┊
       AST🎄         AST🎄        AST🎄          AST🎄
        ┊            ┊            ┊              ┊
-        ━━━━━━━━━ CodeGen ━━━━━━━━━━   
-       ┊    ┊        ┊                 ┊      ┊
-Callable  Callable  Callable ......  Callable  Callable 
-       ┊    ┊        ┊                 ┊      ┊
-  AbsInt  AbsInt    AbsInt  ......     AbsInt  AbsInt
-       ┊    ┊        ┊                 ┊      ┊
-        ━━━━━━━  Knowledge Base 🧠 ━━━━━
+ ━━━━━━━━━━━━ CodeGen ━━━━━━━━━━━━   
+   ┊        ┊        ┊                 ┊      ┊
+Callable  Callable  Callable   ...  Callable  Callable 
+   ┊        ┊        ┊                 ┊      ┊
+   AI        AI        AI      ...       AI      AI
+   ┊        ┊        ┊                 ┊      ┊
+ ━━━━━━━━━━━  Knowledge Base 🧠 ━━━━━━━
                         ⬆️⬆️⬆️⬆️⬆️
                            Queries
 ```
+
+# Trade-offs 👠 / 👢 / 👡
+
+- intra-procedural / inter-procedural
+  * parallelism 🤹
+  * bounded dataflow 
+- incremental ? privacy ⚠️
+- bitcode: build 🧱 or buy 💶
+- chaotic iteration ? simpler !
+  * non converging scenarios
+  * better parallelism
+
+# Research 👨‍🔬
+
+- parallel queries
+- natural language queries
+- fine grained parallelism
+  * multi-tenant
