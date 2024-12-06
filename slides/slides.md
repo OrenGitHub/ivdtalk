@@ -9,22 +9,26 @@
 - limited space
   * docker(s) size(s) 🐳
   * memory consumption 💾
-- code size
+- input size
+  * files → 10<sup>3</sup>
+  * callables → 10<sup>4</sup>
 
 # Design
 
 ```
-      SRC           SRC           SRC
-       ┊            ┊            ┊
-   AST(py)🌴     AST(rb)🌳    AST(php)🌵
-       │             │             │
-      AST🎄        AST🎄         AST🎄
-
-                 CodeGen
-
-    AbsInt        AbsInt         AbsInt
-
-               Knowledge Base
-
-                 Queries      
+      SRC           SRC           SRC             SRC
+       ┊            ┊            ┊              ┊
+   AST(py)🌴     AST(rb)🌳    AST(php)🌵  ...  AST(js)🌱
+       ┊            ┊            ┊              ┊
+      AST🎄         AST🎄        AST🎄          AST🎄
+       ┊            ┊            ┊              ┊
+        ━━━━━━━━━ CodeGen ━━━━━━━━━━   
+       ┊    ┊        ┊                 ┊      ┊
+Callable  Callable  Callable ......  Callable  Callable 
+       ┊    ┊        ┊                 ┊      ┊
+  AbsInt  AbsInt    AbsInt  ......     AbsInt  AbsInt
+       ┊    ┊        ┊                 ┊      ┊
+        ━━━━━━━  Knowledge Base 🧠 ━━━━━
+                        ⬆️⬆️⬆️⬆️⬆️
+                           Queries
 ```
