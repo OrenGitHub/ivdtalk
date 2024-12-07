@@ -31,6 +31,7 @@ Callable  Callable         ...       Callable   Callable
  ━━━━━━━━━━━  Knowledge Base 🧠 ━━━━━━━
 
                         ⬆️⬆️⬆️⬆️⬆️
+
                            Queries
 ```
 
@@ -40,12 +41,26 @@ Callable  Callable         ...       Callable   Callable
   * parallelism 🤹
   * bounded dataflow 
 - incremental ? privacy ⚠️
-- bitcode: build 🧱 or buy 💶
+- bitcode -- "build or buy" ?
+  * zend, v8, yarv, dex, ...
 - chaotic iteration ? simpler !
   * non-converging scenarios
   * better parallelism
 
-# Research 👨‍🔬
+# Results 📊
+
+- hard to evaluate
+- false negatives
+  * dismissed as bugs 🪲
+  * wrong queries ➡️ 🧠
+- false positives
+  * no benchmarks
+  * very few breakthroughs 😶
+- usability
+  * running time
+  * memory consumption
+
+# Future Research 👨‍🔬
 
 - parallel queries
 - natural language queries
