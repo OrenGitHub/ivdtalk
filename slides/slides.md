@@ -7,8 +7,10 @@
 - CI/CD
 - limited time ⌛ ( minutes )
 - limited space
-  * docker(s) size(s) 🐳
-  * memory consumption 💾
+  <ul class="no-increment">
+    <li>docker(s) size(s) 🐳</li>
+    <li>memory consumption 💾</li>
+  </ul>
 - input size
   * files → 10<sup>3</sup>
   * callables → 10<sup>4</sup>
@@ -40,12 +42,16 @@ Callable  Callable         ...       Callable   Callable
 - intra-procedural / inter-procedural
   * parallelism 🤹
   * bounded dataflow 
-- incremental ? privacy ⚠️
-- bitcode -- "build or buy" ?
-  * zend, v8, yarv, dex, ...
-- chaotic iteration ? simpler !
-  * non-converging scenarios
-  * better parallelism
+- bitcode
+  <ul class="no-increment">
+    <li>"build or buy"</li>
+    <li>zend, v8, yarv, dex, ...</li>
+  </ul>
+- chaotic iteration ?
+  <ul class="no-increment">
+    <li>simpler !</li>
+    <li>non-converging scenarios</li>
+  </ul>
 
 # Results 📊
 
@@ -54,15 +60,12 @@ Callable  Callable         ...       Callable   Callable
   * dismissed as bugs 🪲
   * wrong queries ➡️ 🧠
 - false positives
-  * no benchmarks
-  * very few breakthroughs 😶
+  <ul class="no-increment">
+    <li>no benchmarks</li>
+    <li>very few breakthroughs 😶</li>
+  </ul>
 - usability
-  * running time
-  * memory consumption
-
-# Future Research 👨‍🔬
-
-- parallel queries
-- natural language queries
-- fine grained parallelism
-  * multi-tenant
+  <ul class="no-increment">
+    <li>running time</li>
+    <li>memory consumption</li>
+  </ul>
